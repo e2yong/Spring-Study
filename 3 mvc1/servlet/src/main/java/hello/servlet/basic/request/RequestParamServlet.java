@@ -15,6 +15,8 @@ import java.io.IOException;
  * 2. 동일한 파라미터(username) 전송
  * http://localhost:8080/request-param?username=hello&username=kim&age=20
  */
+// GET 쿼리 파라미터로 데이터 전달
+// POST HTML Form으로 데이터 전달
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
 
